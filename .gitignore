@@ -1,6 +1,0 @@
-bin/*
-include/*
-lib/python2.7
-.Python
-pip-selfcheck.json
-
