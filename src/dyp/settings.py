@@ -98,6 +98,21 @@ TEMPLATE_DIRS = (
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATIC_URL = BASE_DIR + '/static/'
+STATIC_URL = '/static/'
+
+#STATIC_ROOT = '/Users/bharu_sathya/desktop/lwc/src/static/static_root/'
+
+STATIC_ROOT = os.path.join(BASE_DIR,'static','static_root')
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR,'static','static_dirs'),
+
+
+)
+
+MEDIA_ROOT =os.path.join(BASE_DIR,'static','media')
+
+
+MEDIA_URL = '/media/'
 
 FAVICON_PATH = TEMPLATE_DIRS +'/favicon.ico'
