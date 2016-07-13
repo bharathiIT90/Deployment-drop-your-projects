@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
 
-    <title>Drop Your Projects</title>
+    <title>Background Image</title>
 
     <!-- Bootstrap core CSS 
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,23 +28,11 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel = "stylesheet" />
 
     <style>
-    body {
-    padding-top: 0px;
-    padding-bottom: 0px;
-	}
-
-  .navbar{
-    margin-bottom: 0px !important;
-    border-radius: 0px !important;
-  }
-
-  .navbar-inverse .navbar-brand, .navbar-brand:hover {
-    color: white;
-}
-  
+    body{
+        background-image:url('{% static "img/image1.jpg" %}');
+    }
+    
 	</style>
-  {% block style %}
-  {% endblock %}
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -59,44 +47,7 @@
 
   <body>
 
-    
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-      
-
-    
-      
-{% block content %}
-
-{% endblock %}     
- 
-   
-
-    <div class="row" style = "margin-top:80px;background-color:white;">
-    <div class="container" style = 'text-align: center;padding:20px;'>
-     
-
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
-      </footer>
-    </div> <!-- /container -->
-    </div>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src=<link href = "{% static 'js/bootstrap.min.js' %}" rel = "stylesheet"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script>
-    $(document).ready(function(){
-        {% block jquery %}
-        {% endblock %}
-    });
-    </script> 
+  
   </body>
 </html>
 

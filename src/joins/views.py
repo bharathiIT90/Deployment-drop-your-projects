@@ -69,9 +69,6 @@ def home(request):
 			#print Join.objects.filter(friend=obj).count()
 			
 			#print obj.referral.all().count()
-
-
-
 		
 		return HttpResponseRedirect("/%s" %(new_join_old.ref_id))  
 	context = {"form": form}
