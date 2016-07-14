@@ -115,7 +115,6 @@ MEDIA_ROOT =os.path.join(BASE_DIR,'static','media')
 
 MEDIA_URL = '/media/'
 
-#FAVICON_PATH = {
-# os.path.join(TEMPLATE_DIRS,'favicon.ico'),
-# }
+FAVICON_PATH = os.path.join(TEMPLATE_DIRS,'favicon.ico')
+
 
