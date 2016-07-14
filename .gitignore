@@ -1,6 +1,6 @@
 dyp/settings/local.py
 db.sqlite3
-
+dyp/settings/local.pyc
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
