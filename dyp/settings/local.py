@@ -88,7 +88,7 @@ USE_TZ = True
 SHARE_URL = "http://127.0.0.1:8000/?ref="
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR,'templates')
+    os.path.join(BASE_DIR,'templates'),
 ) 
 #'/Users/bharu_sathya/desktop/lwc/src/templates/',
 
@@ -115,4 +115,7 @@ MEDIA_ROOT =os.path.join(BASE_DIR,'static','media')
 
 MEDIA_URL = '/media/'
 
-FAVICON_PATH = TEMPLATE_DIRS +'/favicon.ico'
+#FAVICON_PATH = {
+# os.path.join(TEMPLATE_DIRS,'favicon.ico'),
+# }
+
