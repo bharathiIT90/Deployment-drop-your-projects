@@ -1,4 +1,4 @@
-# Deployment-drop-your-projects
+# Drop-your-projects
 
 Know more about the developer on LinkedIn.
 
