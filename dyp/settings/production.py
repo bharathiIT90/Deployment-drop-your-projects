@@ -17,7 +17,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 ALLOWED_HOSTS = ['*']
 
 
-SHARE_URL = "https://aqueous-garden-85296.herokuapp.com/?ref="
+SHARE_URL = "https://drop-your-projects.herokuapp.com/?ref="
 # Static asset configuration
 # import os
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
