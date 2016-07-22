@@ -16,9 +16,10 @@ Current Features:
 6. Direct links provided to share with various social networking sites.
 
 Future Enhancements: 
-1.Enhancing the present application that helps the users to deploy, stream and download projects. 
-2.Allowing the user to maintain a secure account for their memberhsip.
-3.Include a chat room for each project team to discuss about their progress.
+
+1. Enhancing the present application that helps the users to deploy, stream and download projects. 
+2. Allowing the user to maintain a secure account for their memberhsip.
+3. Include a chat room for each project team to discuss about their progress.
 
 Technogies Used:
 1. Python
