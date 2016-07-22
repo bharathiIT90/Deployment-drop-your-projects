@@ -21,7 +21,7 @@ Future Enhancements:
 2. Allowing the user to maintain a secure account for their memberhsip.
 3. Include a chat room for each project team to discuss about their progress.
 
-Technogies Used:
+Technogies Used:<br/>
 1. Python
 2. Django Framework
 3. Jquery
