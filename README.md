@@ -22,14 +22,11 @@ Future Enhancements:
 3. Include a chat room for each project team to discuss about their progress.
 
 Technogies Used:<br/>
-1. Python
-2. Django Framework
-3. Jquery
-4. Javascript
-5. HTML
-6. CSS
-7. SQLite3
-8. Bootstrap
+Python, Django Framework, Jquery, Javascript, HTML, CSS, SQLite3, Bootstrap
+
+Front-end:<br/>
+
+Back-end:<br/>
 
 
 
