@@ -1,6 +1,6 @@
 # Drop-your-projects
 
-Know more about the developer on LinkedIn.
+Know more about the developer on <a href="https://www.linkedin.com/in/bharathi-ranganathan">Linkedin</a>
 
 Click on the link below to check out the fully deployed website: https://drop-your-projects.herokuapp.com/
 
