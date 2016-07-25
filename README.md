@@ -40,6 +40,7 @@ CSS, HTML and Bootstrap runs the frontend of the drop-your-projects app.
 
 ### Back-end
 The back-end of drop-your-projects application is maintained by Python and Djano framework. 
+Dependencies are given in Drop-your-projects/requirements.txt.
 
 
 
