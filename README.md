@@ -33,11 +33,13 @@ Drops your projects is a fully deployed web application which allows users to la
 3. Include a chat room for each project team to discuss about their progress.
 
 ## Technologies
-Python, Django Framework, Jquery, Javascript, HTML, CSS, SQLite3, Bootstrap
+Python, Django Framework, Jquery, Javascript, HTML, CSS, SQLite3, Bootstrap.
 
 ### Front-end
+CSS, HTML and Bootstrap runs the frontend of the drop-your-projects app. 
 
 ### Back-end
+The back-end of drop-your-projects application is maintained by Python and Djano framework. 
 
 
 
