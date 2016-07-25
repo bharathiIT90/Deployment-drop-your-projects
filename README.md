@@ -46,9 +46,9 @@ The back-end of drop-your-projects application is maintained by Python and Djano
 Dependencies are given in Drop-your-projects/requirements.txt.
 
 ## File Guide
-* <kbd>joins/model.py</kbd>  Creates the tables for the database
-* <kbd>joins/views.py</kbd>  Handles the web requests and returns Responses
-* <kbd>manage.py</kbd>  Implements the backend Python server using Django Framework
+* <kbd>joins/model.py</kbd>  Creates the tables for the database.
+* <kbd>joins/views.py</kbd>  Handles the web requests and returns Responses.
+* <kbd>manage.py</kbd>  Implements the backend Python server using Django Framework.
 * <kbd>dyp/settings/base.py</kbd> Controls the base directory, database, media and template settings required for deployment.
 * <kbd>dyp/settings_old.py</kbd>  Controls the base directory, database, media and template settings required for local run.
 * <kbd>requirements.txt</kbd>  Dependencies for the virutal environment are provided.
