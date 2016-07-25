@@ -8,7 +8,8 @@ Click on the link below to check out the fully deployed website: https://drop-yo
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies](#technologies)
-   -[Front-end](#front-end)
+	- [Front-end](#front-end)
+	- [Back-end](#back-end)
 
 ## Introduction
 Drops your projects is a fully deployed web application which allows users to launch a social media campaign. By joinning drop your projects, individuals can get an unique referral link which can be shared widely along various social networking sites. By sharing the links among social media, individuals gather a team further by earning points towards referring. Based on their number of reference, the users earn points for specific rewards. The rewards depends on the number of users referred by a particular user. The rewards includes from Streaming, downloading to a 12 Month memebership for making your own projects. 
@@ -36,7 +37,7 @@ Python, Django Framework, Jquery, Javascript, HTML, CSS, SQLite3, Bootstrap
 
 ### Front-end
 
-Back-end:<br/>
+### Back-end
 
 
 
