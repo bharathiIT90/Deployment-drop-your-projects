@@ -81,8 +81,12 @@ And then...
 ```sh
 $ python manage.py createsuperuser
 ```
-The above commands create a new superuser for application. Finally run the application using the following command.
+The above command create a new superuser for application and follow the instructions on terminal for the same. Finally run the application using the following command. Open the browser to check the application. 
 
 ```sh
 $ python manage.py runserver
 ```
+
+## Technical Run:
+
+
