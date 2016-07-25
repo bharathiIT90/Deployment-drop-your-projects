@@ -53,28 +53,35 @@ Dependencies are given in Drop-your-projects/requirements.txt.
 
 ## Installation
 
+The following terminal commands on Mac would create directory dropyourprojects/src/ and clones the source code into src.
 ```sh
-$ mkdir dropyourprojects && cd dropyourprojects
+$ mkdir dropyourprojects  && cd dropyourprojects
+$mkdir src && cd src
 $ git clone [git-repo-url] .
 ```
+And then now create the virutal environment into the directory dropyourprojects and not into the src directory. Create a virtualenv outside the src. Activate the virtualenv.
 
 ```sh
+$ cd ..
 $ virtualenv env 
 $ source bin/activate
 ```
 
+This commands would move into the src directory and installs all the dependencies given in the requirements.txt.
 ```sh
+$ cd src
 $ pip install -r requirements.txt
 ```
 
+Once the installments are installed, create and migrate new tables. Make sure you are on the src directory.
 ```sh
-$ cd src
 $ python manage.py migrate
 ```
-
+And then...
 ```sh
 $ python manage.py createsuperuser
 ```
+The above commands create a new superuser for application. Finally run the application using the following command.
 
 ```sh
 $ python manage.py runserver
